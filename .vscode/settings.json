@@ -1,13 +1,16 @@
 {
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "python.linting.pylintArgs": [
-    "--enable=all",
-    "--variable-rgx=^[a-z][a-zA-Z0-9_]*$",
-    "--argument-rgx=^[a-z][a-zA-Z0-9_]*$",
-    "--function-rgx=^[a-z][a-zA-Z0-9_]*$",
-    "--indent-string=\"  \""
+  "python.formatting.autopep8Args": [
+    "--max-line-length",
+    "100",
+    "--indent-size",
+    "2",
+    "--aggressive"
   ],
-  "python.pythonPath": "/Users/mhzed/anaconda3/bin/python",
-  "python.linting.pylintPath": "/Users/mhzed/anaconda3/bin/pylint"
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--ignore=E111,E501,E114,E265,W504,E128"
+  ],
+  "python.pythonPath": "/Users/mhzed/.local/share/virtualenvs/dsblog-6tNu6W5C/bin/python",
+  "python.venvPath": "/Users/mhzed/.local/share/virtualenvs"
 }
