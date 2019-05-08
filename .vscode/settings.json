@@ -1,0 +1,13 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--enable=all",
+    "--variable-rgx=^[a-z][a-zA-Z0-9_]*$",
+    "--argument-rgx=^[a-z][a-zA-Z0-9_]*$",
+    "--function-rgx=^[a-z][a-zA-Z0-9_]*$",
+    "--indent-string=\"  \""
+  ],
+  "python.pythonPath": "/Users/mhzed/anaconda3/bin/python",
+  "python.linting.pylintPath": "/Users/mhzed/anaconda3/bin/pylint"
+}
