@@ -1,10 +1,6 @@
 dsblog
 --------
 
-## Misc commands
+See https://www.nbinteract.com/tutorial/tutorial_github_setup.html
 
-    #To run tests:
-    python -m unittest discover
-    #To package: 
-    python3 setup.py sdist bdist_wheel  
-    
+https://hub.mybinder.org/user/mhzed-dsblog-u4nw23oz/tree
